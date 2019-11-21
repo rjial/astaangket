@@ -1,0 +1,61 @@
+
+#senta {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+}
+
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ main {
+    flex: 1 0 auto;
+  }
+
+.soal {
+  margin-left: 15px;
+  font-size: 15pt;
+}
+
+.sidenaav a {
+    /* padding: 5px 8px 6px 16px; */
+    text-decoration: none;
+    font-size: 19px;
+    /* color: #818181; */
+    display: block;
+}
+
+.rcorners1 {
+    border-radius: 3px;
+    background: #73AD21;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+}
+
+.inline-icon {
+   vertical-align: bottom;
+   font-size: 18px !important;
+}
+
+.tambah_nama_guru table  {
+	border-collapse: separate !important;
+}
+
+.submit-rasa-a input {
+    color: #ffab40;
+  margin-right: 24px;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
+  text-transform: uppercase;
+}
+
+.dukur tr {
+  height: 24px;
+}
